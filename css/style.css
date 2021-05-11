@@ -1,0 +1,33 @@
+.container{
+    margin-top:50px ;
+    margin-bottom:50px;
+    background-color: azure;
+}
+
+[class*="col"] {
+    /* border: 1px solid black; */
+    height: 100px;
+}
+/* color class */
+
+.white{background-color: white}
+
+.red{ background-color: red;}
+.black{background-color: black;}
+.green{background-color: green;}
+.yellow{background-color: yellow;}
+.yellogreen{background-color: yellowgreen;}
+.gray{background-color: gray;}
+.teal{background-color: teal;}
+.blue{background-color: blue;}
+
+
+/*end color class */
+
+
+.row .col-xs-1:first-child{
+    background-color: black;
+}
+.row .col-xs-1:last-child{
+    background-color: black;
+}
